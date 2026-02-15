@@ -1,0 +1,105 @@
+section.cards>article.card>div.card-title{Название товара}+img[src="/images/card-item-1.png"][alt="Товар-1"]+(.card-price>span.price-sum{24 000}+span.price-cur{руб.})+button{Заказать}
+<!--Карточка товара-->
+<section class="cards">
+  <article class="card">
+    <div class="card-title">Название товара</div>
+    <img src="/images/card-item-1.png" alt="Товар-1">
+    <div class="card-price"><span class="price-sum">24 000</span><span class="price-cur">руб.</span></div>
+    <button>Заказать</button>
+  </article>
+</section>
+
+header>.logo+nav>ul>li*3
+<!--Не нумерованный список. Конструкция *3 — это в прямом смысле умножение. Мы хотим взять элемент и разметить его три раза.-->
+<header>
+  <div class="logo"></div>
+  <nav>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </nav>
+</header>
+
+table>tr*3>td*3
+<!-- Создание таблиц -->
+<table>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+header+main+footer
+<header></header>
+<main></main>
+<footer></footer>
+
+div.item-$*3
+<!--Символ $ в Emmet является счетчиком. При разворачивании такой строчки все символы $ заменяются на числа от 1 с шагом единица-->
+<div class="item-1"></div>
+<div class="item-2"></div>
+<div class="item-3"></div>
+
+main>h1{Emmet}+(ul>li{Быстрый}li{Удобный}li{Нескучные обои})+p{Emmet помогает мне писать верстку быстрее}*10
+<main>
+  <h1>Emmet</h1>
+  <ul>
+    <li>Быстрый</li>
+    <li>Удобный</li>
+    <li>Нескучные обои</li>
+  </ul>
+  <p>Emmet помогает мне писать верстку быстрее</p>
+  <p>Emmet помогает мне писать верстку быстрее</p>
+  <p>Emmet помогает мне писать верстку быстрее</p>
+  <p>Emmet помогает мне писать верстку быстрее</p>
+  <p>Emmet помогает мне писать верстку быстрее</p>
+  <p>Emmet помогает мне писать верстку быстрее</p>
+  <p>Emmet помогает мне писать верстку быстрее</p>
+  <p>Emmet помогает мне писать верстку быстрее</p>
+  <p>Emmet помогает мне писать верстку быстрее</p>
+  <p>Emmet помогает мне писать верстку быстрее</p>
+</main>
+
+<main>
+  <h1>Резюме</h1>
+  <h2>Разработчик веб-приложений</h2>
+  <section class="study">
+    <h2>Образование</h2>
+    <ul>
+      <li class="place-of-study">Место учёбы №1</li>
+      <li class="place-of-study">Место учёбы №2</li>
+      <li class="place-of-study">Место учёбы №3</li>
+    </ul>
+  </section>
+</main>
+
+<!--Моё решение-->
+main>h1{Резюме}+h2{Разработчик веб-приложений}+section.study>h2{Образование}+(ul>li.place-of-study{Место учёбы №$}*3)
+<!--Решение учителя-->
+main>h1{Резюме}+h2{Разработчик веб-приложений}+(section.study>h2{Образование}+ul>li.place-of-study*3{Место учёбы №$})
+
+<main>
+  <h1>Резюме</h1>
+  <h2>Разработчик веб-приложений</h2>
+  <section class="study">
+    <h2>Образование</h2>
+    <ul>
+      <li class="place-of-study">Место учёбы №1</li>
+      <li class="place-of-study">Место учёбы №2</li>
+      <li class="place-of-study">Место учёбы №3</li>
+    </ul>
+  </section>
+</main>
